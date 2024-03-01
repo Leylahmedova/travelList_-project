@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header{
+  padding: 30px;
+  background-color: rgb(225, 146, 68);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+.forms{
+  background-color: rgb(217, 122, 32);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+.forms span{
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+input,select{
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  margin-right: 10px;
+  background-color: bisque;
+  outline: none;
+}
+button{
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+.main{
+  background-color: rgb(80, 46, 32);
+  color: bisque;
+  padding: 20px 40px;
+  height:62vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main ul{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+.main ul li{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+  background-color: rgb(12, 12, 78);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+}
